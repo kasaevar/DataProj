@@ -18,7 +18,7 @@
 14. далее в терминале sudo chmod 777 -R ./hdfs
 15. cd ./hdfs/datanode
 16. mkdir -m 777 ods
-17. cd ../../python
-18. sudo up install python3
-19. sudo up install python3-pip
-20. установка 
+17. скачиваем через ubuntusoftware pycharm community
+18. открываем файл main.py в pycharm
+19. через PyPl устанавливаем пакеты psycopg2 и pandas
+20. 
