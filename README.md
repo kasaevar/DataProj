@@ -9,16 +9,16 @@
 5. далее sudo up install docker-compose
 6. далее sudo up install snapd
 7. далее sudo snap instal dbeaver-ce(его можно установить через App в ubuntu)
-8. git clone https://github.com/kasaevar/DataProj
-9. cd ./DataProj/docker
-10. sudo docker-compose up -d
-11. открываем dbeaver 
-12. подключаемся к postgreSQL со следующими параметрами host:localhost, username:admin, password:admin, database:dataproj, port:32, 
-13. в базе данных dataproj в schemas создаем схемы stg, dds, dm
-14. далее в терминале sudo chmod 777 -R ./hdfs
-15. cd ./hdfs/datanode
-16. mkdir -m 777 ods
-17. скачиваем через ubuntusoftware pycharm community
-18. открываем файл main.py в pycharm
-19. через PyPl устанавливаем пакеты psycopg2 и pandas
-20. 
+8. git clone https://github.com/kasaevar/DataProj 
+10. cd ./DataProj/docker
+11. скачать архив по ссылке и разархивировать в папку docker : https://drive.google.com/drive/folders/1ZYhS48bCy7Fh-JKuHWgiGgsOxFto8C_1?usp=sharing
+13. sudo docker-compose up -d
+14. открываем dbeaver 
+15. подключаемся к postgreSQL со следующими параметрами host:localhost, username:admin, password:admin, database:dataproj, port:32, 
+16. в базе данных dataproj в schemas создаем схемы stg, dds, dm
+17. далее в терминале sudo chmod 777 -R ./hdfs
+18. cd ./hdfs/datanode
+19. mkdir -m 777 ods
+20. скачиваем через ubuntusoftware pycharm community
+21. открываем файл main.py в pycharm
+22. через PyPl устанавливаем пакеты psycopg2 и pandas
